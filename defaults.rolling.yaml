@@ -33,3 +33,5 @@ when:
       # TODO: worth trying to fix these warning disablements? I think they might need some attention from upstream, maybe...
       - "-Wno-missed-specialisations"
       - "-Wno-all-missed-specialisations"
+      # See https://ghc.haskell.org/trac/ghc/ticket/14794
+      - "-Wno-missing-exported-signatures"
