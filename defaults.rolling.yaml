@@ -1,6 +1,7 @@
 default-extensions:
   - BinaryLiterals
   - DataKinds
+  - DeriveDataTypeable
   - DeriveGeneric
   - DeriveLift
   - DeriveTraversable
