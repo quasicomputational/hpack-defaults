@@ -8,6 +8,8 @@ default-extensions:
   - DerivingStrategies
   - EmptyCase
   - EmptyDataDecls
+  - EmptyDataDeriving
+  - HexFloatLiterals
   - LambdaCase
   - KindSignatures
   #Enable MonoLocalBinds so we don't get surprised by unrelated things breaking when GADTs or TypeFamilies are turned on.
@@ -21,7 +23,6 @@ default-extensions:
   - TypeOperators
   - ViewPatterns
   #TODO: MagicHash? UnboxedTuples? ConstraintKinds? ExplicitForAll? BangPatterns? TemplateHaskellQuotes?? RankNTypes???
-  #TODO: once GHC 8.2 is out of the window, enable HexFloatLiterals and EmptyDataDeriving
 ghc-options:
   - "-Weverything"
   - "-Wno-implicit-prelude"
