@@ -23,6 +23,7 @@ default-extensions:
   - TypeOperators
   - ViewPatterns
   #TODO: MagicHash? UnboxedTuples? ConstraintKinds? ExplicitForAll? BangPatterns? TemplateHaskellQuotes?? RankNTypes???
+  #TODO: BlockArguments, NumericUnderscores, DerivingVia, NoStarIsType once 8.4 is out of the window.
 ghc-options:
   - "-Weverything"
   - "-Wno-implicit-prelude"
